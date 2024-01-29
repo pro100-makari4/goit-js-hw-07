@@ -18,6 +18,6 @@ function handleSubmit(event) {
     usersList.email = login;
     usersList.password = password;
 
-    console.log(`Login: ${usersList.email}, Password: ${usersList.password}`);
+    console.log(usersList);
     form.reset();
 }
